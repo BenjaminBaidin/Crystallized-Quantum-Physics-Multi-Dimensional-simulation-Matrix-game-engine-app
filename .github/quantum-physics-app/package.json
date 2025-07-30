@@ -1,0 +1,30 @@
+{
+  "name": "quantum-physics-app",
+  "version": "1.0.0",
+  "description": "A quantum physics simulation application that models quantum phenomena.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "typescript": "^4.5.0",
+    "jest": "^27.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/quantum-physics-app.git"
+  },
+  "keywords": [
+    "quantum",
+    "physics",
+    "simulation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
